@@ -50,6 +50,34 @@
             <version>1.2.79</version>
         </dependency>
 
+        <!--mysql 驱动依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version>
+        </dependency>
+
+        <!-- Druid database connection pool -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.20</version>
+        </dependency>
+
+        <!-- orm mybatis plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+
+        <!-- mybatis plus 联表插件-->
+        <dependency>
+            <groupId>com.github.yulichang</groupId>
+            <artifactId>mybatis-plus-join-boot-starter</artifactId>
+            <version>1.4.4</version>
+        </dependency>
+
     </dependencies>
 
 

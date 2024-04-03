@@ -6,18 +6,19 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * 用户信息实体类
- * @author AustinWang
+ * @author: Austin
+ * @date: 2024/4/3 14:45
  */
 @Data
-@TableName("user")
-public class User implements Serializable {
+@TableName("permission")
+public class Permission implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     private Long id;
 
-    private String username;
+    private Long userId;
 
-    private String password;
+    private String sn;
+
 }
